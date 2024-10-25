@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import * as BooksAPI from "./BooksAPI";
 
 function App() 
-BooksAPI.getAll();
   const defaultBooks = [
     {
       id: 1,
