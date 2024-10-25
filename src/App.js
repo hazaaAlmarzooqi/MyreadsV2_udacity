@@ -2,7 +2,8 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import * as BooksAPI from "./BooksAPI";
 
-function App() {
+function App() 
+BooksAPI.getAll();
   const defaultBooks = [
     {
       id: 1,
